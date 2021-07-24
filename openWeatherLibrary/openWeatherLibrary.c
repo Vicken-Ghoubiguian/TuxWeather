@@ -14,6 +14,8 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
 
     OpenWeather* test;
 
+    printf("Hello, World!\n");
+
     return test;
 }
 
@@ -21,6 +23,8 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
 OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
 
     OpenWeather* test;
+
+    printf("Hello, World!\n");
 
     return test;
 }
