@@ -24,5 +24,5 @@ void completeGetWeather(char* city, char* countryCode, char* apiKey){
 //
 void printWeather(struct openWeather weather){
 
-    print("Print weather!\n");
+    printf("Print weather!\n");
 }
