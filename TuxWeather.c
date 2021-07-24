@@ -9,6 +9,9 @@ int main() {
 	// Call the first 'simpleGetWeather' function...
 	test = simpleGetWeather("", "");
 
+	//
+	printWeather(test);
+
 	// Return 0 (execution without error)...
 	return 0;
 }
