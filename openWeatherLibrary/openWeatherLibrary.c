@@ -9,6 +9,7 @@ typedef struct openWeather {
 
 } OpenWeather;
 
+// Definition of the 'test' function...
 void test(){
 
     printf("Hello, World!\n");
