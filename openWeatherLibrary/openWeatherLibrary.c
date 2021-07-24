@@ -14,3 +14,9 @@ void getWeather(char* city, char* apiKey){
 
     printf("Hello, World!\n");
 }
+
+//
+void getWeather(char* city, char* countryCode, char* apiKey){
+
+    printf("Hello, World!\n");
+}
