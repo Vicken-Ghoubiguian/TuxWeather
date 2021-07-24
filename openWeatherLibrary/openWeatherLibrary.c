@@ -21,8 +21,8 @@ void completeGetWeather(char* city, char* countryCode, char* apiKey){
     printf("Hello, World!\n");
 }
 
-// Definition of the 'printWeather' function, wwhich display the weather...
-void printWeather(struct openWeather weather){
+// Definition of the 'printWeather' function, which display the weather in parameters...
+void printWeather(OpenWeather weather){
 
     printf("Print weather!\n");
 }
