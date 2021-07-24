@@ -4,8 +4,10 @@
 // Definition of the main function...
 int main() {
 
+	OpenWeather* test;
+
 	// Call the first 'simpleGetWeather' function...
-	simpleGetWeather("", "");
+	test = simpleGetWeather("", "");
 
 	// Return 0 (execution without error)...
 	return 0;
