@@ -9,14 +9,20 @@ typedef struct openWeather {
 
 } OpenWeather;
 
-// Definition of the 'getWeather' function, which takes the wished city and the OpenWeatherMap api key in argument...
-void getWeather(char* city, char* apiKey){
+// Definition of the 'simpleGetWeather' function, which takes the wished city and the OpenWeatherMap api key in argument...
+void simpleGetWeather(char* city, char* apiKey){
 
     printf("Hello, World!\n");
 }
 
-// Definition of the 'getWeather' function, which takes the wished city, the corresponding country code and the OpenWeatherMap api key in argument...
-void getWeather(char* city, char* countryCode, char* apiKey){
+// Definition of the 'completeGetWeather' function, which takes the wished city, the corresponding country code and the OpenWeatherMap api key in argument...
+void completeGetWeather(char* city, char* countryCode, char* apiKey){
 
     printf("Hello, World!\n");
 }
+
+//
+/*void printWeather(struct openWeather weather){
+
+    print("Print weather!\n");
+}*/
