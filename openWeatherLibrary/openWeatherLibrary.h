@@ -1,9 +1,6 @@
 #ifndef OPENWEATHERLIBRARY
 #define OPENWEATHERLIBRARY
 
-typedef struct openWeather {
-
-
-} openWeather;
+typedef struct openWeather OpenWeather;
 
 #endif
