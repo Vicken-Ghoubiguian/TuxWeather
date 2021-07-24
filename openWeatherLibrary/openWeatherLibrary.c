@@ -22,7 +22,7 @@ void completeGetWeather(char* city, char* countryCode, char* apiKey){
 }
 
 //
-/*void printWeather(struct openWeather weather){
+void printWeather(struct openWeather weather){
 
     print("Print weather!\n");
-}*/
+}
