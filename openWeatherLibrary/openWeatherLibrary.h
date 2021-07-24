@@ -10,7 +10,7 @@ void simpleGetWeather(char* city, char* apiKey);
 // Definition of the 'completeGetWeather' function, which takes the wished city, the corresponding country code and the OpenWeatherMap api key in argument...
 void completeGetWeather(char* city, char* countryCode, char* apiKey);
 
-//
+// Definition of the 'printWeather' function, wwhich display the weather...
 void printWeather(struct openWeather weather);
 
 #endif
