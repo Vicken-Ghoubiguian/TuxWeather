@@ -1,12 +1,12 @@
 // Include internal libraries...
 #include "openWeatherLibrary/openWeatherLibrary.h"
 
-//
+// Definition of the main function...
 int main() {
 
-	//
+	// Call the 'test' function defined in the 'openWeatherLibrary' internal library...
 	test();
 
-	//
+	// Return 0 (execution without error)...
 	return 0;
 }
