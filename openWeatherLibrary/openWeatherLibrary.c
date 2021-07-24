@@ -10,7 +10,7 @@ typedef struct openWeather {
 } OpenWeather;
 
 // Definition of the 'getWeather' function...
-void getWeather(){
+void getWeather(char* city, char* apiKey){
 
     printf("Hello, World!\n");
 }

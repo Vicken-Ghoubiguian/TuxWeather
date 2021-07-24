@@ -5,7 +5,7 @@
 int main() {
 
 	// Call the 'getWeather' function defined in the 'openWeatherLibrary' internal library...
-	getWeather();
+	getWeather("", "");
 
 	// Return 0 (execution without error)...
 	return 0;
