@@ -16,6 +16,9 @@ typedef struct openWeather {
     char* weather_description;
     char* weather_icon;
 
+    //
+    int cod;
+
 } OpenWeather;
 
 // Definition of the 'simpleGetWeather' function, which takes the wished city and the OpenWeatherMap api key in argument...
