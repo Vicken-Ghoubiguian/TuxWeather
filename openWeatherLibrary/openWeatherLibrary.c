@@ -16,6 +16,12 @@ typedef struct openWeather {
     char* weather_description;
     char* weather_icon;
 
+    // Fields for temperatures (in Kelvin - K -)...
+    float temperature;
+    float feelingLikeTemperature;
+    float minimalTemperature;
+    float maximalTemperature;
+
     // Field for timezone (number of seconds of offset from UTC)...
     long int timezone;
 
