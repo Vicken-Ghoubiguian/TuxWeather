@@ -19,6 +19,9 @@ typedef struct openWeather {
     // Field for timezone (number of seconds of offset from UTC)...
     long int timezone;
 
+    // Field for the id...
+    long int id;
+
     // Field for the localisation's name...
     char* name;
 
