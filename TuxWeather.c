@@ -2,7 +2,7 @@
 #include "openWeatherLibrary/openWeatherLibrary.h"
 
 // Definition of the main function...
-int main() {
+int main(int argc, char *argv[]) {
 
 	OpenWeather* test;
 
