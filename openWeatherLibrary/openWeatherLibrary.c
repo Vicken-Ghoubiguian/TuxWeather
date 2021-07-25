@@ -6,7 +6,7 @@
 // Definition of the structure 'openWeather' which is the type 'OpenWeather'...
 typedef struct openWeather {
 
-    //
+    // Fields for geographic coordinates...
     float longitude;
     float latitude;
 
