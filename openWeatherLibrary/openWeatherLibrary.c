@@ -16,7 +16,7 @@ typedef struct openWeather {
     char* weather_description;
     char* weather_icon;
 
-    //
+    // Field for HTTP/HTTPS result code...
     int cod;
 
 } OpenWeather;
