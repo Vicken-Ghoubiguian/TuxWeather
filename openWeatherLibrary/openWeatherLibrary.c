@@ -20,13 +20,8 @@ typedef struct openWeather {
     long int timezone;
 
     //
-
-    //
-
-    //
-
-    //
     
+
 
     // Field for the id...
     long int id;
