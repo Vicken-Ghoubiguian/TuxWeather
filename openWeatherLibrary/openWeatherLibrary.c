@@ -6,6 +6,8 @@
 // Definition of the structure 'openWeather' which is the type 'OpenWeather'...
 typedef struct openWeather {
 
+    char* weather_description;
+    char* weather_icon;
 
 } OpenWeather;
 
