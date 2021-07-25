@@ -11,7 +11,7 @@ typedef struct openWeather {
     float latitude;
 
     // Fields for weather...
-    int weather_id; 
+    int weather_id;
     char* weather_main;
     char* weather_description;
     char* weather_icon;
