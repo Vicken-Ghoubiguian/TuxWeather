@@ -48,7 +48,11 @@ typedef struct openWeather {
 // Definition of the 'simpleGetWeather' function, which takes the wished city and the OpenWeatherMap api key in argument...
 OpenWeather* simpleGetWeather(char* city, char* apiKey){
 
+    //
     OpenWeather* test;
+    
+    //
+    int port = 80;
 
     printf("Hello, World!\n");
 
@@ -58,7 +62,11 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
 // Definition of the 'completeGetWeather' function, which takes the wished city, the corresponding country code and the OpenWeatherMap api key in argument...
 OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
 
+    //
     OpenWeather* test;
+    
+    //
+    int port = 80;
 
     printf("Hello, World!\n");
 
