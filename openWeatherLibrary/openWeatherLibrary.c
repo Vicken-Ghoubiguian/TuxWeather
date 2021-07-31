@@ -48,29 +48,29 @@ typedef struct openWeather {
 // Definition of the 'simpleGetWeather' function, which takes the wished city and the OpenWeatherMap api key in argument...
 OpenWeather* simpleGetWeather(char* city, char* apiKey){
 
-    // Definition of the current 'OpenWeather' type variable (named 'test') which will be returned...
-    OpenWeather* test;
+    // Definition of the current 'OpenWeather' type variable (named 'returnedWeather') which will be returned...
+    OpenWeather* returnedWeather;
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
 
     printf("Hello, World!\n");
 
-    return test;
+    return returnedWeather;
 }
 
 // Definition of the 'completeGetWeather' function, which takes the wished city, the corresponding country code and the OpenWeatherMap api key in argument...
 OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
 
-    // Definition of the current 'OpenWeather' type variable (named 'test') which will be returned...
-    OpenWeather* test;
+    // Definition of the current 'OpenWeather' type variable (named 'returnedWeather') which will be returned...
+    OpenWeather* returnedWeather;
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
 
     printf("Hello, World!\n");
 
-    return test;
+    return returnedWeather;
 }
 
 // Definition of the 'printWeather' function, which display the weather in parameters...
