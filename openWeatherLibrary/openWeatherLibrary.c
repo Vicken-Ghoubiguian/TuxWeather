@@ -4,6 +4,9 @@
 #include <stdio.h>
 #include <string.h>
 
+//
+# define OPENWEATHERHTTPSREQUESTSIZE 200 
+
 // Definition of the structure 'openWeather' which is the type 'OpenWeather'...
 typedef struct openWeather {
 
@@ -53,7 +56,7 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
     OpenWeather* returnedWeather;
 
     // Definition of the 'openWeatherHTTPSRequest' which will contain the weather retrieval URL from OpenWeather...
-    char openWeatherHTTPSRequest[100];
+    char openWeatherHTTPSRequest[OPENWEATHERHTTPSREQUESTSIZE];
 
     // Declaration of all parts for the weather retrieval URL from OpenWeather to configure the corresponding HTTPS request...
     char* openWeatherRequestFirstPart = "https://api.openweathermap.org/data/2.5/weather?q=";
@@ -78,7 +81,7 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
     OpenWeather* returnedWeather;
 
     // Definition of the 'openWeatherHTTPSRequest' which will contain the weather retrieval URL from OpenWeather...
-    char openWeatherHTTPSRequest[100];
+    char openWeatherHTTPSRequest[OPENWEATHERHTTPSREQUESTSIZE];
 
     // Declaration of all parts for the weather retrieval URL from OpenWeather to configure the corresponding HTTPS request...
     char* openWeatherRequestFirstPart = "https://api.openweathermap.org/data/2.5/weather?q=";
