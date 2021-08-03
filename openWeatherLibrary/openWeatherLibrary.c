@@ -66,7 +66,7 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
 
-    printf("%s", openWeatherRequestFirstPart);
+    printf("%s\n", openWeatherRequestFirstPart);
 
     return returnedWeather;
 }
@@ -93,7 +93,7 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
 
-    printf("%s", openWeatherRequestFirstPart);
+    printf("%s\n", openWeatherRequestFirstPart);
 
     return returnedWeather;
 }
