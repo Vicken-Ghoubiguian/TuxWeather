@@ -93,8 +93,11 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
 
     // Definition of the weather retrieval URL from OpenWeather...
     strcat(openWeatherHTTPSRequest, openWeatherRequestFirstPart);
+    strcat(openWeatherHTTPSRequest, city);
     strcat(openWeatherHTTPSRequest, openWeatherRequestSecondPart);
+    strcat(openWeatherHTTPSRequest, countryCode);
     strcat(openWeatherHTTPSRequest, openWeatherRequestThirdPart);
+    strcat(openWeatherHTTPSRequest, apiKey);
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = OPENWEATHERHTTPSREQUESTPORT;
