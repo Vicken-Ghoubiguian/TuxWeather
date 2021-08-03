@@ -72,7 +72,7 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
     strcat(openWeatherHTTPSRequest, apiKey);
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
-    int port = 80;
+    int port = OPENWEATHERHTTPSREQUESTPORT;
 
     printf("%s\n", openWeatherRequestFirstPart);
 
