@@ -5,7 +5,10 @@
 #include <string.h>
 
 //
-# define OPENWEATHERHTTPSREQUESTSIZE 200 
+# define OPENWEATHERHTTPSREQUESTSIZE 200
+
+//
+# define OPENWEATHERHTTPSREQUESTPORT 80
 
 // Definition of the structure 'openWeather' which is the type 'OpenWeather'...
 typedef struct openWeather {
@@ -94,7 +97,7 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
     strcat(openWeatherHTTPSRequest, openWeatherRequestThirdPart);
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
-    int port = 80;
+    int port = OPENWEATHERHTTPSREQUESTPORT;
 
     printf("%s\n", openWeatherRequestFirstPart);
 
