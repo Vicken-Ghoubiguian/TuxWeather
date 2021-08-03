@@ -2,6 +2,7 @@
 
 // Include standard libraries...
 #include <stdio.h>
+#include <string.h>
 
 // Definition of the structure 'openWeather' which is the type 'OpenWeather'...
 typedef struct openWeather {
@@ -59,11 +60,13 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
     char* openWeatherRequestSecondPart = "&appid=";
 
     // Definition of the weather retrieval URL from OpenWeather...
+    strcat(openWeatherHTTPSRequest, openWeatherRequestFirstPart);
+    strcat(openWeatherHTTPSRequest, openWeatherRequestSecondPart);
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
 
-    printf("Hello, World!\n");
+    printf("%s", openWeatherHTTPSRequest);
 
     return returnedWeather;
 }
@@ -83,11 +86,14 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
     char* openWeatherRequestThirdPart = "&appid=";
 
     // Definition of the weather retrieval URL from OpenWeather...
+    strcat(openWeatherHTTPSRequest, openWeatherRequestFirstPart);
+    strcat(openWeatherHTTPSRequest, openWeatherRequestSecondPart);
+    strcat(openWeatherHTTPSRequest, openWeatherRequestThirdPart);
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
 
-    printf("Hello, World!\n");
+    printf("%s", openWeatherHTTPSRequest);
 
     return returnedWeather;
 }
