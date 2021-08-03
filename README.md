@@ -5,11 +5,15 @@ Linux command line interface to get and treat weather on a specific location on 
 ## Contents
 
 1. [Introduction](#introduction)
-2. [Compilation](#compilation)
-3. [Conclusion](#conclusion)
+2. [Project's structure](#project_s_structure)
+3. [Compilation](#compilation)
+4. [Conclusion](#conclusion)
 
 <a name="introduction"></a>
 ## Introduction
+
+<a name="project_s_structure"></a>
+## Project's structure
 
 <a name="compilation"></a>
 ## Compilation
