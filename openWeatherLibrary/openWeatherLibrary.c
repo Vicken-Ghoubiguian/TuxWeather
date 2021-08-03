@@ -58,7 +58,7 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
     char* openWeatherRequestFirstPart = "https://api.openweathermap.org/data/2.5/weather?q=";
     char* openWeatherRequestSecondPart = "&appid=";
 
-    //
+    // Definition of the weather retrieval URL from OpenWeather...
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
@@ -82,7 +82,7 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
     char* openWeatherRequestSecondPart = ",";
     char* openWeatherRequestThirdPart = "&appid=";
 
-    //
+    // Definition of the weather retrieval URL from OpenWeather...
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
