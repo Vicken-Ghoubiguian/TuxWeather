@@ -64,6 +64,11 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
 
     // Definition of the current 'OpenWeather' type variable (named 'returnedWeather') which will be returned...
     OpenWeather* returnedWeather;
+
+    // Declaration of all parts for the weather retrieval URL from OpenWeather to configure the corresponding HTTPS request...
+    char* openWeatherRequestFirstPart = "https://api.openweathermap.org/data/2.5/weather?q=";
+    char* openWeatherRequestSecondPart = ",";
+    char* openWeatherRequestThirdPart = "&appid=";
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
