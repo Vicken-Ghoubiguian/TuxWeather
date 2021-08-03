@@ -53,20 +53,20 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
     OpenWeather* returnedWeather;
 
     // Definition of the 'openWeatherHTTPSRequest' which will contain the weather retrieval URL from OpenWeather...
-    char* openWeatherHTTPSRequest;
+    char* openWeatherHTTPSRequest = "";
 
     // Declaration of all parts for the weather retrieval URL from OpenWeather to configure the corresponding HTTPS request...
     char* openWeatherRequestFirstPart = "https://api.openweathermap.org/data/2.5/weather?q=";
     char* openWeatherRequestSecondPart = "&appid=";
 
     // Definition of the weather retrieval URL from OpenWeather...
-    strcat(openWeatherHTTPSRequest, openWeatherRequestFirstPart);
-    strcat(openWeatherHTTPSRequest, openWeatherRequestSecondPart);
+    /*strcat(openWeatherHTTPSRequest, openWeatherRequestFirstPart);
+    strcat(openWeatherHTTPSRequest, openWeatherRequestSecondPart);*/
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
 
-    printf("%s", openWeatherHTTPSRequest);
+    printf("%s", openWeatherRequestFirstPart);
 
     return returnedWeather;
 }
@@ -78,7 +78,7 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
     OpenWeather* returnedWeather;
 
     // Definition of the 'openWeatherHTTPSRequest' which will contain the weather retrieval URL from OpenWeather...
-    char* openWeatherHTTPSRequest;
+    char* openWeatherHTTPSRequest = "";
 
     // Declaration of all parts for the weather retrieval URL from OpenWeather to configure the corresponding HTTPS request...
     char* openWeatherRequestFirstPart = "https://api.openweathermap.org/data/2.5/weather?q=";
@@ -86,14 +86,14 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey){
     char* openWeatherRequestThirdPart = "&appid=";
 
     // Definition of the weather retrieval URL from OpenWeather...
-    strcat(openWeatherHTTPSRequest, openWeatherRequestFirstPart);
+    /*strcat(openWeatherHTTPSRequest, openWeatherRequestFirstPart);
     strcat(openWeatherHTTPSRequest, openWeatherRequestSecondPart);
-    strcat(openWeatherHTTPSRequest, openWeatherRequestThirdPart);
+    strcat(openWeatherHTTPSRequest, openWeatherRequestThirdPart);*/
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
 
-    printf("%s", openWeatherHTTPSRequest);
+    printf("%s", openWeatherRequestFirstPart);
 
     return returnedWeather;
 }
