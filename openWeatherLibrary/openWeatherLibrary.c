@@ -67,7 +67,9 @@ OpenWeather* simpleGetWeather(char* city, char* apiKey){
 
     // Definition of the weather retrieval URL from OpenWeather...
     strcat(openWeatherHTTPSRequest, openWeatherRequestFirstPart);
+    strcat(openWeatherHTTPSRequest, city);
     strcat(openWeatherHTTPSRequest, openWeatherRequestSecondPart);
+    strcat(openWeatherHTTPSRequest, apiKey);
     
     // Definition of all elements to make the HTTPS request to obtain all weather datas...
     int port = 80;
