@@ -4,6 +4,8 @@ Linux command line interface to get and treat weather on a specific location on 
 
 ## Contents
 
-gcc TuxWeather.c openWeatherLibrary/*
+## Compilation
 
-./a.out
+```gcc TuxWeather.c openWeatherLibrary/*```
+
+```./a.out```
