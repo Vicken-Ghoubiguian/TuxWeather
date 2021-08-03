@@ -4,10 +4,10 @@
 #include <stdio.h>
 #include <string.h>
 
-//
+// Definition of the 'OPENWEATHERHTTPSREQUESTSIZE' global variable to define the openWeather HTTPS request maximal size...
 # define OPENWEATHERHTTPSREQUESTSIZE 200
 
-//
+// Definition of the 'OPENWEATHERHTTPSREQUESTPORT' global variable to define the openWeather HTTPS request port...
 # define OPENWEATHERHTTPSREQUESTPORT 80
 
 // Definition of the structure 'openWeather' which is the type 'OpenWeather'...
