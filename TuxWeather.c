@@ -4,8 +4,8 @@
 // Definition of the main function...
 int main(int argc, char *argv[]) {
 
-	//
-	if(argc < 3) {
+	// In the case where the 'argc' variable (which contains the arguments count) is equal to 3... 
+	if(argc == 3) {
 	
 		// Declaration of 'test' which is of type OpenWeather*...
 		OpenWeather* test;
@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 		// Call the 'printWeather' function to print weather geted previously...
 		printWeather(test);
 	
-	//
+	// In the other case...
 	} else {
 		
 		
