@@ -10,8 +10,18 @@ int main(int argc, char *argv[]) {
 		// Declaration of 'test' which is of type OpenWeather*...
 		OpenWeather* test;
 
-		// Call the first 'simpleGetWeather' function...
-		test = simpleGetWeather(argv[1], argv[2]);
+		//
+		if() {
+		
+			// Call the first 'simpleGetWeather' function...
+			test = simpleGetWeather(argv[1], argv[2]);
+		
+		//
+		} else {
+		
+			//
+			test = completeGetWeather(argv[1], argv[2], argv[3]);
+		}
 
 		// Call the 'printWeather' function to print weather geted previously...
 		printWeather(test);
