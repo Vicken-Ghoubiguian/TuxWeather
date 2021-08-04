@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 		OpenWeather* test;
 
 		//
-		if() {
+		if(argc == 3) {
 		
 			// Call the first 'simpleGetWeather' function...
 			test = simpleGetWeather(argv[1], argv[2]);
