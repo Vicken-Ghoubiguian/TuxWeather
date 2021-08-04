@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 		//
 		} else {
 		
-			//
+			// Call the first 'completeGetWeather' function...
 			test = completeGetWeather(argv[1], argv[2], argv[3]);
 		}
 
