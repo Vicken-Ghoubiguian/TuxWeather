@@ -19,7 +19,15 @@ int main(int argc, char *argv[]) {
 	// In the other case...
 	} else {
 		
+		//
+		if(argc < 3) {
+			
+		}
 		
+		//
+		if(argc > 3) {
+			
+		}
 	}
 
 	// Return 0 (execution without error)...
