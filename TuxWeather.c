@@ -33,14 +33,14 @@ int main(int argc, char *argv[]) {
 		if(argc < 3) {
 			
 			// Display a message to tell that the 'argc' variable (which contains the arguments count) must be imperatively 3 or 4... 
-			
+			printf("ARGS NUMBER ERROR: \n");
 		}
 		
 		// In the sub-case where the 'argc' variable (which contains the arguments count) is greater than 4...
 		if(argc > 4) {
 
 			// Display a message to tell that the 'argc' variable (which contains the arguments count) must be imperatively 3 or 4...
-			
+			printf("ARGS NUMBER ERROR: \n");
 		}
 	}
 
