@@ -32,10 +32,14 @@ int main(int argc, char *argv[]) {
 		// In the sub-case where the 'argc' variable (which contains the arguments count) is smaller than 3...
 		if(argc < 3) {
 			
+			// Display a message 
+			
 		}
 		
 		// In the sub-case where the 'argc' variable (which contains the arguments count) is greater than 4...
 		if(argc > 4) {
+
+			// Display a message
 			
 		}
 	}
