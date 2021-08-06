@@ -1,6 +1,9 @@
 // Include internal libraries...
 #include "openWeatherLibrary/openWeatherLibrary.h"
 
+//
+#include <stdio.h>
+
 // Definition of the main function...
 int main(int argc, char *argv[]) {
 
