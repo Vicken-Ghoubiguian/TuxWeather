@@ -1,4 +1,4 @@
-
+#include "ansiPrintLibrary.h"
 
 //Regular text
 #define BLK "\e[0;30m"

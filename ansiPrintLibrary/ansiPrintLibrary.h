@@ -1,0 +1,4 @@
+#ifndef ANSIPRINTLIBRARY
+#define ANSIPRINTLIBRARY
+
+#endif
