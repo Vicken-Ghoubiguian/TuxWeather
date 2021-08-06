@@ -1,5 +1,6 @@
 // Include internal libraries...
 #include "openWeatherLibrary/openWeatherLibrary.h"
+#include "ansiPrintLibrary/ansiPrintLibrary.h"
 
 // Include standard libraries...
 #include <stdio.h>
