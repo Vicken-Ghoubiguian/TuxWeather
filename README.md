@@ -28,10 +28,10 @@ Linux command line interface to get and treat weather on a specific location on 
 <a name="how_to_install_this_unix_command_on_your_linux_or_mac_system"></a>
 ## How to install this unix command on your Linux or Mac system ?
 
-<a name="on_linux">
+<a name="on_linux"></a>
 ### On Linux...
 
-<a name="on_mac">
+<a name="on_mac"></a>
 ### On Mac...
 
 <a name="conclusion"></a>
