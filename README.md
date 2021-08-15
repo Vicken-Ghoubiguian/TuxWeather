@@ -24,7 +24,11 @@ Linux command line interface to get and treat weather on a specific location on 
 ```./a.out```
 
 <a name="how_to_install_this_unix_command_on_your_linux_or_mac_system"></a>
-## How to install this unix command on your Linux or Mac system ? 
+## How to install this unix command on your Linux or Mac system ?
+
+### On Linux...
+
+### On Mac...
 
 <a name="conclusion"></a>
 ## Conclusion
