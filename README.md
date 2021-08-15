@@ -10,7 +10,7 @@ Linux command line interface to get and treat weather on a specific location on 
 4. [How to install this unix command on your Linux or Mac system ?](#how_to_install_this_unix_command_on_your_linux_or_mac_system)
   * [On Linux...](#on_linux)
   * [On Mac...](#on_mac) 
-6. [Conclusion](#conclusion)
+5. [Conclusion](#conclusion)
 
 <a name="introduction"></a>
 ## Introduction
