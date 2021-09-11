@@ -115,3 +115,15 @@ void printWeather(OpenWeather* weather){
 
     printf("Print weather!\n");
 }
+
+//
+float getLongitude(OpenWeather* weather){
+
+    return weather->longitude;
+}
+
+//
+float getLatitude(OpenWeather* weather){
+
+    return weather->latitude;
+}

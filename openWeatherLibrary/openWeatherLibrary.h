@@ -13,4 +13,10 @@ OpenWeather* completeGetWeather(char* city, char* countryCode, char* apiKey);
 // Definition of the 'printWeather' function, which display the weather in parameters...
 void printWeather(OpenWeather* weather);
 
+//
+float getLongitude(OpenWeather* weather);
+
+//
+float getLatitude(OpenWeather* weather);
+
 #endif
