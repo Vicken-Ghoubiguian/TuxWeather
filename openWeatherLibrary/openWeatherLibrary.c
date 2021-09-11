@@ -127,3 +127,27 @@ float getLatitude(OpenWeather* weather){
 
     return weather->latitude;
 }
+
+//
+float getTemperature(OpenWeather* weather){
+
+    return weather->temperature;
+}
+
+//
+float getFeelingLikeTemperature(OpenWeather* weather){
+
+    return weather->feelingLikeTemperature;
+}
+
+//
+float getMinimalTemperature(OpenWeather* weather){
+
+    return weather->minimalTemperature;
+}
+
+//
+float getMaximalTemperature(OpenWeather* weather){
+
+    return weather->maximalTemperature;
+}
