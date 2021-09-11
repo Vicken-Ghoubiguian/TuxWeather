@@ -116,13 +116,13 @@ void printWeather(OpenWeather* weather){
     printf("Print weather!\n");
 }
 
-//
+// Definition of the 'getLongitude' function, which returns the longitude from the weather in parameters...
 float getLongitude(OpenWeather* weather){
 
     return weather->longitude;
 }
 
-//
+// Definition of the 'getLatitude' function, which returns the latitude from the weather in parameters...
 float getLatitude(OpenWeather* weather){
 
     return weather->latitude;
