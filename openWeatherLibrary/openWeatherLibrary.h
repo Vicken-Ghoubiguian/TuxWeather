@@ -19,16 +19,16 @@ float getLongitude(OpenWeather* weather);
 // Definition of the 'getLatitude' function, which returns the latitude from the weather in parameters...
 float getLatitude(OpenWeather* weather);
 
-//
+// Definition of the 'getTemperature' function, which returns the current temperature from the weather in parameters...
 float getTemperature(OpenWeather* weather);
 
-//
+// Definition of the 'getFeelingLikeTemperature' function, which returns the current feeling like temperature from the weather in parameters...
 float getFeelingLikeTemperature(OpenWeather* weather);
 
-//
+// Definition of the 'getMinimalTemperature' function, which returns the waited minimal temperature from the weather in parameters...
 float getMinimalTemperature(OpenWeather* weather);
 
-//
+// Definition of the 'getMaximalTemperature' function, which returns the waited maximal temperature from the weather in parameters...
 float getMaximalTemperature(OpenWeather* weather);
 
 #endif
